@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    "UAP,Version=v10.0.20348": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-arm": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-arm-aot": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-arm64-aot": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-x64": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-x64-aot": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-x86": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.20348/win10-x86-aot": {
+      "Dolphin/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dolphin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dolphin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dolphin/1.0.0": {
+      "type": "project",
+      "path": "../Core/DolphinWX/DolphinWX.vcxproj",
+      "msbuildProject": "../Core/DolphinWX/DolphinWX.vcxproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "UAP,Version=v10.0.20348": [
+      "Dolphin >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\redd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\DolphinAPPX\\DolphinAPPX.wapproj",
+      "projectName": "DolphinAPPX",
+      "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\DolphinAPPX\\DolphinAPPX.wapproj",
+      "packagesPath": "C:\\Users\\redd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\DolphinAPPX\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\redd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net451"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.20348": {
+          "targetAlias": "net451",
+          "projectReferences": {
+            "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\DolphinWX\\DolphinWX.vcxproj": {
+              "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\DolphinWX\\DolphinWX.vcxproj"
+            }
+          }
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "uap10.0.20348": {
+        "targetAlias": "net451",
+        "imports": [
+          "netcoreapp3.1",
+          "netcoreapp3.0",
+          "netcoreapp2.0",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net8.0-windows10.0.22621",
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  }
+}

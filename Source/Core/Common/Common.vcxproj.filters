@@ -37,7 +37,6 @@
     <ClInclude Include="Config\Config.h" />
     <ClInclude Include="Config\Enums.h" />
     <ClInclude Include="Config\Layer.h" />
-    <ClInclude Include="Config\Section.h" />
     <ClInclude Include="CPUDetect.h" />
     <ClInclude Include="DebugInterface.h" />
     <ClInclude Include="ENetUtil.h" />
@@ -260,6 +259,7 @@
     <ClInclude Include="GL\GLExtensions\ARB_texture_compression_bptc.h">
       <Filter>GL\GLExtensions</Filter>
     </ClInclude>
+    <ClInclude Include="Config\ConfigInfo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CDUtils.cpp" />
@@ -267,7 +267,6 @@
     <ClCompile Include="CommonFuncs.cpp" />
     <ClCompile Include="Config\Config.cpp" />
     <ClCompile Include="Config\Layer.cpp" />
-    <ClCompile Include="Config\Section.cpp" />
     <ClCompile Include="ENetUtil.cpp" />
     <ClCompile Include="FileSearch.cpp" />
     <ClCompile Include="FileUtil.cpp" />
@@ -330,6 +329,7 @@
     <ClCompile Include="File.cpp" />
     <ClCompile Include="LdrWatcher.cpp" />
     <ClCompile Include="CompatPatches.cpp" />
+    <ClCompile Include="Config\ConfigInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
