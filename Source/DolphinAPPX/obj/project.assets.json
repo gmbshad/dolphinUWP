@@ -2,99 +2,1566 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.20348": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     },
     "UAP,Version=v10.0.20348/win10-arm": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     },
     "UAP,Version=v10.0.20348/win10-arm-aot": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     },
     "UAP,Version=v10.0.20348/win10-arm64-aot": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     },
     "UAP,Version=v10.0.20348/win10-x64": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     },
     "UAP,Version=v10.0.20348/win10-x64-aot": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     },
     "UAP,Version=v10.0.20348/win10-x86": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
         }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.20348/win10-x86-aot": {
+      "Common/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SCMRevGen": "1.0.0",
+          "curl": "1.0.0",
+          "enet": "1.0.0",
+          "mbedTLS": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "curl/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/curl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/curl.dll": {}
+        }
+      },
+      "D3D/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/D3D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D3D.dll": {}
+        }
+      },
       "Dolphin/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "D3D": "1.0.0",
+          "Null": "1.0.0",
+          "Vulkan": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dolphin.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dolphin.dll": {}
+        }
+      },
+      "enet/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/enet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/enet.dll": {}
+        }
+      },
+      "glslang/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/glslang.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/glslang.dll": {}
+        }
+      },
+      "mbedTLS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/mbedTLS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mbedTLS.dll": {}
+        }
+      },
+      "Null/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Null.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Null.dll": {}
+        }
+      },
+      "pch/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/pch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/pch.dll": {}
+        }
+      },
+      "png/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/png.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/png.dll": {}
+        }
+      },
+      "SCMRevGen/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCMRevGen.dll": {}
+        }
+      },
+      "SOIL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SOIL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOIL.dll": {}
+        }
+      },
+      "VideoCommon/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "SOIL": "1.0.0",
+          "pch": "1.0.0",
+          "png": "1.0.0",
+          "xxhash": "1.0.0",
+          "zlib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VideoCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoCommon.dll": {}
+        }
+      },
+      "Vulkan/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "VideoCommon": "1.0.0",
+          "glslang": "1.0.0",
+          "pch": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vulkan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vulkan.dll": {}
+        }
+      },
+      "xxhash/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/xxhash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/xxhash.dll": {}
+        }
+      },
+      "zlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/zlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/zlib.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Core/Common/Common.vcxproj",
+      "msbuildProject": "../Core/Common/Common.vcxproj"
+    },
+    "curl/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/curl/curl.vcxproj",
+      "msbuildProject": "../../Externals/curl/curl.vcxproj"
+    },
+    "D3D/1.0.0": {
+      "type": "project",
+      "path": "../Core/VideoBackends/D3D/D3D.vcxproj",
+      "msbuildProject": "../Core/VideoBackends/D3D/D3D.vcxproj"
+    },
     "Dolphin/1.0.0": {
       "type": "project",
       "path": "../Core/DolphinWX/DolphinWX.vcxproj",
       "msbuildProject": "../Core/DolphinWX/DolphinWX.vcxproj"
+    },
+    "enet/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/enet/enet.vcxproj",
+      "msbuildProject": "../../Externals/enet/enet.vcxproj"
+    },
+    "glslang/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/glslang/glslang.vcxproj",
+      "msbuildProject": "../../Externals/glslang/glslang.vcxproj"
+    },
+    "mbedTLS/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/mbedtls/mbedTLS.vcxproj",
+      "msbuildProject": "../../Externals/mbedtls/mbedTLS.vcxproj"
+    },
+    "Null/1.0.0": {
+      "type": "project",
+      "path": "../Core/VideoBackends/Null/Null.vcxproj",
+      "msbuildProject": "../Core/VideoBackends/Null/Null.vcxproj"
+    },
+    "pch/1.0.0": {
+      "type": "project",
+      "path": "../PCH/pch.vcxproj",
+      "msbuildProject": "../PCH/pch.vcxproj"
+    },
+    "png/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/libpng/png/png.vcxproj",
+      "msbuildProject": "../../Externals/libpng/png/png.vcxproj"
+    },
+    "SCMRevGen/1.0.0": {
+      "type": "project",
+      "path": "../Core/Common/SCMRevGen.vcxproj",
+      "msbuildProject": "../Core/Common/SCMRevGen.vcxproj"
+    },
+    "SOIL/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/SOIL/SOIL.vcxproj",
+      "msbuildProject": "../../Externals/SOIL/SOIL.vcxproj"
+    },
+    "VideoCommon/1.0.0": {
+      "type": "project",
+      "path": "../Core/VideoCommon/VideoCommon.vcxproj",
+      "msbuildProject": "../Core/VideoCommon/VideoCommon.vcxproj"
+    },
+    "Vulkan/1.0.0": {
+      "type": "project",
+      "path": "../Core/VideoBackends/Vulkan/Vulkan.vcxproj",
+      "msbuildProject": "../Core/VideoBackends/Vulkan/Vulkan.vcxproj"
+    },
+    "xxhash/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/xxhash/xxhash.vcxproj",
+      "msbuildProject": "../../Externals/xxhash/xxhash.vcxproj"
+    },
+    "zlib/1.0.0": {
+      "type": "project",
+      "path": "../../Externals/zlib/zlib.vcxproj",
+      "msbuildProject": "../../Externals/zlib/zlib.vcxproj"
     }
   },
   "projectFileDependencyGroups": {

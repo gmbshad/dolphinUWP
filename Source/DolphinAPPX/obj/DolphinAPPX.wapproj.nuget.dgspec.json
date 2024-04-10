@@ -4,6 +4,180 @@
     "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\DolphinAPPX\\DolphinAPPX.wapproj": {}
   },
   "projects": {
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\curl\\curl.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\curl\\curl.vcxproj",
+        "projectName": "curl",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\curl\\curl.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\enet\\enet.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\enet\\enet.vcxproj",
+        "projectName": "enet",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\enet\\enet.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\glslang\\glslang.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\glslang\\glslang.vcxproj",
+        "projectName": "glslang",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\glslang\\glslang.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\libpng\\png\\png.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\libpng\\png\\png.vcxproj",
+        "projectName": "png",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\libpng\\png\\png.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\mbedtls\\mbedTLS.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\mbedtls\\mbedTLS.vcxproj",
+        "projectName": "mbedTLS",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\mbedtls\\mbedTLS.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\SOIL\\SOIL.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\SOIL\\SOIL.vcxproj",
+        "projectName": "SOIL",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\SOIL\\SOIL.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\xxhash\\xxhash.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\xxhash\\xxhash.vcxproj",
+        "projectName": "xxhash",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\xxhash\\xxhash.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj",
+        "projectName": "zlib",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\Common.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\Common.vcxproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\Common.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\curl\\curl.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\curl\\curl.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\enet\\enet.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\enet\\enet.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\mbedtls\\mbedTLS.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\mbedtls\\mbedTLS.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\SCMRevGen.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\SCMRevGen.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\SCMRevGen.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\SCMRevGen.vcxproj",
+        "projectName": "SCMRevGen",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\SCMRevGen.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
     "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\DolphinWX\\DolphinWX.vcxproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\DolphinWX\\DolphinWX.vcxproj",
@@ -11,7 +185,120 @@
         "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\DolphinWX\\DolphinWX.vcxproj",
         "frameworks": {
           "native": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\D3D\\D3D.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\D3D\\D3D.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Null\\Null.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Null\\Null.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Vulkan\\Vulkan.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Vulkan\\Vulkan.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\D3D\\D3D.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\D3D\\D3D.vcxproj",
+        "projectName": "D3D",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\D3D\\D3D.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Null\\Null.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Null\\Null.vcxproj",
+        "projectName": "Null",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Null\\Null.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Vulkan\\Vulkan.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Vulkan\\Vulkan.vcxproj",
+        "projectName": "Vulkan",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoBackends\\Vulkan\\Vulkan.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\glslang\\glslang.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\glslang\\glslang.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj",
+        "projectName": "VideoCommon",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\VideoCommon\\VideoCommon.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\libpng\\png\\png.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\libpng\\png\\png.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\SOIL\\SOIL.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\SOIL\\SOIL.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\xxhash\\xxhash.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\xxhash\\xxhash.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Externals\\zlib\\zlib.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\Common.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\Core\\Common\\Common.vcxproj"
+              },
+              "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj": {
+                "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj"
+              }
+            }
           }
         }
       },
@@ -100,6 +387,21 @@
         "win10-x86-aot": {
           "#import": []
         }
+      }
+    },
+    "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj",
+        "projectName": "pch",
+        "projectPath": "C:\\Users\\redd\\Source\\Repos\\gmbshad\\dolphinUWP\\Source\\PCH\\pch.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
       }
     }
   }
